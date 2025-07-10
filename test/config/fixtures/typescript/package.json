@@ -11,11 +11,14 @@
       ],
       "postrun": [
         "./lib/hooks/postrun"
+      ],
+      "finally": [
+        "./lib/hooks/finally"
       ]
     }
   },
   "devDependencies": {
-    "globby": "^8.0.1",
+    "tinyglobby": "^0.2.13",
     "ts-node": "^6.0.2"
   }
 }

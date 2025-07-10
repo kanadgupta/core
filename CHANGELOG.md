@@ -1,3 +1,66 @@
+# [4.5.0](https://github.com/oclif/core/compare/4.4.1...4.5.0) (2025-07-07)
+
+
+### Features
+
+* add error & Command to finally hook options ([#1422](https://github.com/oclif/core/issues/1422)) ([9dd3bca](https://github.com/oclif/core/commit/9dd3bcac43a3f40fb5cd07abc2d1b9415091d82a)), closes [#1417](https://github.com/oclif/core/issues/1417)
+
+
+
+## [4.4.1](https://github.com/oclif/core/compare/4.4.0...4.4.1) (2025-07-03)
+
+
+### Bug Fixes
+
+* do not list hidden arguments in usage ([#1412](https://github.com/oclif/core/issues/1412)) ([#1413](https://github.com/oclif/core/issues/1413)) ([33d8dda](https://github.com/oclif/core/commit/33d8dda070c1c19275cf1118a8b5ae7c792a93a3))
+
+
+
+# [4.4.0](https://github.com/oclif/core/compare/4.3.3...4.4.0) (2025-06-17)
+
+
+### Features
+
+* add tar flags config ([#1400](https://github.com/oclif/core/issues/1400)) ([1923c0f](https://github.com/oclif/core/commit/1923c0f95de747a88c328dcbe28a313d7cf14431))
+
+
+
+## [4.3.3](https://github.com/oclif/core/compare/4.3.2...4.3.3) (2025-06-09)
+
+
+### Bug Fixes
+
+* **deps:** bump tinyglobby from 0.2.13 to 0.2.14 ([#1393](https://github.com/oclif/core/issues/1393)) ([53a7354](https://github.com/oclif/core/commit/53a7354cc571e112973332e97064bd55603b3a28))
+
+
+
+## [4.3.2](https://github.com/oclif/core/compare/4.3.1...4.3.2) (2025-06-06)
+
+
+### Bug Fixes
+
+* prevent TypeError when using version flag ([#1391](https://github.com/oclif/core/issues/1391)) ([a3f08e1](https://github.com/oclif/core/commit/a3f08e1148829157f8bd7aad44d52c30668307da))
+
+
+
+## [4.3.1](https://github.com/oclif/core/compare/4.3.0...4.3.1) (2025-06-02)
+
+
+### Bug Fixes
+
+* migrate from globby to tinyglobby ([#1363](https://github.com/oclif/core/issues/1363)) ([#1387](https://github.com/oclif/core/issues/1387)) ([a66a7eb](https://github.com/oclif/core/commit/a66a7eba84e354e1da8ba9f1323bdaf683db2852))
+
+
+
+# [4.3.0](https://github.com/oclif/core/compare/4.2.10...4.3.0) (2025-04-28)
+
+
+### Features
+
+* add generic for extending `Hooks` on `config.runHook` ([#1359](https://github.com/oclif/core/issues/1359)) ([#1362](https://github.com/oclif/core/issues/1362)) ([667e396](https://github.com/oclif/core/commit/667e39644c01937de913c1888339a52df4164881))
+
+
+
 ## [4.2.10](https://github.com/oclif/core/compare/4.2.9...4.2.10) (2025-03-12)
 
 

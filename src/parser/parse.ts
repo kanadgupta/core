@@ -47,7 +47,7 @@ declare global {
    * Storing in global is necessary because we want the cache to be shared across all versions of @oclif/core in
    * in the dependency tree. Storing in a variable would only share the cache within the same version of @oclif/core.
    */
-  // eslint-disable-next-line no-var
+
   var oclif: {stdinCache?: string}
 }
 
@@ -365,6 +365,7 @@ export class Parser<
         ...context,
         error: context?.error,
         exit: context?.exit,
+        jsonEnabled: context?.jsonEnabled,
         log: context?.log,
         logToStderr: context?.logToStderr,
         token,
